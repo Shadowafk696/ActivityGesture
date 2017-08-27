@@ -5,9 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.school.events.touchevent.MainActivity"
-    android:id="@+id/main_layout"
-    >
+    android:id="@+id/main_layout" >
+    //this is mi id for my background
+
+    //Indicate an id of my textview
     <TextView
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/hello_gesture"

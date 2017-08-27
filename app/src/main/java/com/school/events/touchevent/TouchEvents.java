@@ -23,7 +23,7 @@ public class TouchEvents extends AppCompatActivity {
         TextView textView = (TextView) findViewById(R.id.hello_world);
         textView.setText("Touch coordinates: " +
                 String.valueOf(event.getX()) + "x" + String.valueOf(event.getY()));
-
+// Instance coordinates for X and Y.
         int action = MotionEventCompat.getActionMasked(event);
 
         switch (action) {
